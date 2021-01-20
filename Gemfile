@@ -14,6 +14,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 gem 'devise'
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
@@ -49,6 +50,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
 end
 
 group :test do
